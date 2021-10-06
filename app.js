@@ -1,3 +1,15 @@
-const fs = require('fs');
+const getNotes = require('./notes.js');
 
-fs.writeFileSync('notes.txt','This file waas created by node.Js');
+const msg = getNotes();
+console.log(msg);
+
+
+
+
+
+
+// const add = require('./utils.js');
+// const sum = add(8,4);
+// console.log(sum);
+
+
