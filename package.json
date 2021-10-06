@@ -1,0 +1,24 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "notes app using NodeJs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raghu-N-Yadav/notes-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raghu-N-Yadav/notes-app/issues"
+  },
+  "homepage": "https://github.com/Raghu-N-Yadav/notes-app#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "validator": "^13.6.0",
+    "yargs": "^17.2.1"
+  }
+}
